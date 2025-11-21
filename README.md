@@ -42,7 +42,25 @@ This cheat sheet covers the most commonly used **SQL Clauses, Operators, and Fun
 | `LOWER()` | Converts text to lowercase | `SELECT LOWER(name) FROM students;` |
 | `ROUND()` | Rounds numbers | `SELECT ROUND(3.14159, 2);` |
 
-## 📌 How to Use This Cheat Sheet?  
-1️⃣ **Clone this repo:**  
-   ```sh
-   git clone https://github.com/yourusername/sql-cheat-sheet.git
+# 📌 Paranthaman SQL Cheat Sheet
+
+A comprehensive SQL Cheat Sheet with clear explanations and beginner-friendly examples. Perfect for quick reference while learning or practicing SQL.
+
+---
+
+## 📖 Full SQL Example
+
+```sql
+-- Create a table
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT
+);
+
+-- Insert data
+INSERT INTO students (id, name, age) VALUES (1, 'John', 20);
+INSERT INTO students (id, name, age) VALUES (2, 'Jane', 22);
+
+-- Select all students
+SELECT * FROM students;
